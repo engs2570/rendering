@@ -1,9 +1,12 @@
-# Sure, here’s a simple example of a path tracer in Python. This is a very basic implementation and real-world path tracers would be much more complex and optimized. This example only traces a single ray per pixel and does not handle materials, shadows, or indirect light.
+# Sure, here’s a simple example of a path tracer in Python.
+# This is a very basic implementation and real-world path tracers would be much more complex and optimized.
+# This example only traces a single ray per pixel and does not handle materials, shadows, or indirect light.
 
 import numpy as np
 import matplotlib.pyplot as plt
 
-# Here we’re setting up the scene. We define the dimensions of the image we’re going to render (WIDTH and HEIGHT), the position of the camera in 3D space (camera_pos), and the position and radius of a sphere that we’re going to render.
+# Here we’re setting up the scene. We define the dimensions of the image we’re going to render (WIDTH and HEIGHT),
+# the position of the camera in 3D space (camera_pos), and the position and radius of a sphere that we’re going to render.
 
 
 # Scene setup
